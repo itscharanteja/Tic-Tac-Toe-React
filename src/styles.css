@@ -1,0 +1,20 @@
+.cust-btn {
+  min-height: 100px;
+  min-width: 100px;
+
+  border: 1px solid black;
+  border-radius: 0%;
+}
+
+/* Add these CSS styles to your styles.css or inline styles */
+
+.board {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; Optional: Add some spacing between grid cells */
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
